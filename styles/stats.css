@@ -1,4 +1,4 @@
-/* === Anime Watchlist – HOME PAGE (minimal & responsive) === */
+/* === Anime Watchlist – STATS PAGE === */
 
 /*----------- 0. Variables -----------*/
 :root {
@@ -16,7 +16,7 @@
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
-/*----------- 1. Reset & base -----------*/
+/*----------- 1. Base -----------*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -36,22 +36,21 @@ a {
 a:hover {
   text-decoration: underline;
 }
-/* img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
-} */
+}
 .container {
   width: min(90%, 1000px);
   margin-inline: auto;
-  padding-block: 1.5rem;
+  padding-block: 2rem 3rem;
 }
 
 /*----------- 2. Header -----------*/
 header {
   background: var(--color-primary);
   color: var(--color-text-light);
-  position: relative;   
 }
 header .container {
   display: flex;
@@ -61,15 +60,7 @@ header .container {
 }
 .logo {
   font-size: var(--font-size-h1);
-  font-weight: 100;
-  /* plus de position:absolute */
-  display: flex;
-  align-items: center;   /* centre verticalement l’image */
-}
-
-.logo img {
-  height: 44px;          /* ajuste la hauteur souhaitée */
-  width: auto;
+  font-weight: 600;
 }
 nav ul {
   list-style: none;
@@ -98,56 +89,39 @@ nav a:hover {
   background: #005ea6;
 }
 
-/*----------- 4. Home specific -----------*/
-.home-hero {
-  text-align: center;
-  padding-block: 2.5rem 1.5rem;
-}
-.home-hero h1 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-.home-hero p {
-  max-width: 500px;
-  margin-inline: auto 1.5rem;
-  color: #555;
-}
-
-.watchlist-grid {
+/*----------- 4. Stats layout -----------*/
+.stats-grid {
   display: grid;
   gap: 1.25rem;
-  padding-bottom: 3rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 2rem;
 }
-.card-anime {
+.stat-card {
   background: var(--color-surface);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   border: 1px solid var(--color-border);
-  overflow: hidden;
-  transition: transform 0.2s;
+  padding: 1.25rem;
+  text-align: center;
 }
-.card-anime:hover {
-  transform: translateY(-3px);
-}
-.card-anime img {
-  height: 320px;
-  object-fit: cover;
-}
-.card-body {
-  padding: 1rem;
-}
-.card-title {
+.stat-card h2 {
   font-size: var(--font-size-h2);
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.25rem;
 }
-.status {
-  display: inline-block;
-  padding: 0.2rem 0.5rem;
-  font-size: 0.75rem;
+.stat-card span {
   color: #555;
-  border: 1px solid var(--color-border);
+  font-size: 0.9rem;
+}
+
+.placeholder-chart {
+  width: 100%;
+  height: 220px;
+  border: 2px dashed var(--color-border);
   border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
 }
 
 /*----------- 5. Responsive -----------*/
@@ -156,7 +130,9 @@ nav a:hover {
     flex-direction: column;
     align-items: flex-start;
   }
-  nav ul { flex-wrap: wrap; }
+  nav ul {
+    flex-wrap: wrap;
+  }
 }
 
 /*----------- 6. Dark mode -----------*/
@@ -167,7 +143,8 @@ nav a:hover {
     --color-text: #e1e1e1;
     --color-border: rgba(255, 255, 255, 0.06);
   }
-  .card-anime:hover {
-    transform: translateY(-3px) scale(1.01);
+  .placeholder-chart {
+    border-color: var(--color-border);
+    color: #aaa;
   }
 }

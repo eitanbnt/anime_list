@@ -6,10 +6,10 @@ Road-map “Anime Watchlist” – version courte 🍣
     -Repo en ligne ok
     -Première page qui s’affiche localement OK
 2. Style de base	
-    -Définir palette & typo (variables CSS)
-    -Ajuster responsive (mobile → desktop)
-    -Feuille de style propre (styles.css)
-    -Affichage OK sur téléphone
+    -Définir palette & typo (variables CSS) grace à l'ia
+    -Ajuster responsive (mobile → desktop)grace à l'ia
+    -Feuille de style propre (styles.css)grace à l'ia
+    -Affichage OK sur téléphone grace à l'ia
 3. Modèle de données	    
     -Réfléchir aux champs : id, title, episodesSeen, total, status, coverUrl
     -Stocker un tableau JSON dans localStorage
