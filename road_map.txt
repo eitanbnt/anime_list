@@ -1,0 +1,22 @@
+Road-map “Anime Watchlist” – version courte 🍣
+Étape	Objectif	Livrables	Durée indicative*
+1. Initialisation	- Créer le repo Git (README + licence)
+- Copier le squelette index.html du canvas	• Repo en ligne
+• Première page qui s’affiche localement	½ j
+2. Style de base	- Définir palette & typo (variables CSS)
+- Ajuster responsive (mobile → desktop)	• Feuille de style propre (styles.css)
+• Affichage OK sur téléphone	1 j
+3. Modèle de données	- Réfléchir aux champs : id, title, episodesSeen, total, status, coverUrl
+- Stocker un tableau JSON dans localStorage	• Fonction loadWatchlist() et saveWatchlist()	1 j
+4. Ajout / suppression	- Créer un petit formulaire “Ajouter un anime” (titre only)
+- Bouton “Supprimer” sur chaque carte	• DOM mis à jour en temps réel
+• Données persistantes (refresh ne les efface pas)	1–2 j
+5. Intégration AniList (option ++)	- Appel fetch à l’API GraphQL d’AniList pour récupérer image + nb d’épisodes	• Remplissage auto de coverUrl et total	1 j
+6. Statistiques	- Compter total d’épisodes vus & temps approximatif (24 min/épisode)	• Bannière ou section stats	½ j
+7. Finitions UI	- Hover, transitions, dark mode, favicon	• UX agréable, sans bugs visuels	½ j
+8. Déploiement	- Push final → GitHub Pages (ou Netlify)
+- Vérifier liens & meta-tags pour partage	• URL publique partagée aux amis	½ j
+9. Feedback & itérations	- Demander retours, ouvrir issues
+- Corriger & ajouter features (tri, filtre, recherche)	• Version v1.1 stable	variable
+
+*Estimations très larges, à adapter à ton rythme.
