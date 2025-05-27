@@ -12,22 +12,15 @@
 
 <body>
     <header>
-        <div class="container">
-            <!-- Logo (lien vers l’accueil) -->
-            <a href="index.html" class="logo">
-                <img src="../data/logo.jpg" alt="logo">
-            </a>
-
-            <!-- Navigation principale -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="stats.html">Stats</a></li>
-                </ul>
-            </nav>
-        </div>
     </header>
     <main>
+        <div id="site-header"></div>
+        <script>
+            fetch('layout.html')
+                .then(r => r.text())
+                .then(html => { document.getElementById('site-header').innerHTML = html; });
+        </script>
+
         <!-- Exemple de carte d'anime (remplace l'URL de l'image et le contenu) -->
         <!-- <section class="card">
             <img src="https://placehold.co/120x160/png" alt="Anime poster placeholder">

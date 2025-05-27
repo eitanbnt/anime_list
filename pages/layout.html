@@ -1,0 +1,34 @@
+<!-- ========= Reusable layout fragment =========
+     Inclut l’en‑tête commun (logo + onglets).
+     Place ce fichier à la racine du projet, puis
+     insère-le dans chaque page via le snippet JS indiqué plus bas.
+================================================ -->
+<link href="../styles/layout.css" rel="stylesheet">
+<header>
+    <div class="container">
+        <a href="index.html" class="logo">
+            <img src="../data/logo.jpg" alt="logo" />
+        </a>
+
+        <nav>
+            <ul class="tabs">
+                <!-- Ajoute ou retire des onglets si besoin -->
+                <li><a href="index.html" class="tab">Home</a></li>
+                <li><a href="card.html" class="tab">Card</a></li>
+                <li><a href="stats.html" class="tab">Stats</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<script>
+    // === Helper pour marquer l’onglet actif automatiquement ===
+    (function highlightActiveTab() {
+        const path = location.pathname.split('/').pop();
+        document.querySelectorAll('.tab').forEach(link => {
+            if (link.getAttribute('href') === path) {
+                link.classList.add('active');
+            }
+        });
+    })();
+</script>

@@ -36,53 +36,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
-/* img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-} */
+
 .container {
   width: min(90%, 1000px);
   margin-inline: auto;
   padding-block: 1.5rem;
 }
 
-/*----------- 2. Header -----------*/
-header {
-  background: var(--color-primary);
-  color: var(--color-text-light);
-  position: relative;   
-}
-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-}
-.logo {
-  font-size: var(--font-size-h1);
-  font-weight: 100;
-  /* plus de position:absolute */
-  display: flex;
-  align-items: center;   /* centre verticalement l’image */
-}
-
-.logo img {
-  height: 44px;          /* ajuste la hauteur souhaitée */
-  width: auto;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 0.75rem;
-}
-nav a {
-  color: var(--color-text-light);
-  font-weight: 500;
-}
-nav a:hover {
-  opacity: 0.85;
-}
 
 /*----------- 3. Buttons -----------*/
 .btn {
@@ -96,58 +56,6 @@ nav a:hover {
 }
 .btn:hover {
   background: #005ea6;
-}
-
-/*----------- 4. Home specific -----------*/
-.home-hero {
-  text-align: center;
-  padding-block: 2.5rem 1.5rem;
-}
-.home-hero h1 {
-  font-size: 1.8rem;
-  margin-bottom: 0.5rem;
-}
-.home-hero p {
-  max-width: 500px;
-  margin-inline: auto 1.5rem;
-  color: #555;
-}
-
-.watchlist-grid {
-  display: grid;
-  gap: 1.25rem;
-  padding-bottom: 3rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-}
-.card-anime {
-  background: var(--color-surface);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  border: 1px solid var(--color-border);
-  overflow: hidden;
-  transition: transform 0.2s;
-}
-.card-anime:hover {
-  transform: translateY(-3px);
-}
-.card-anime img {
-  height: 320px;
-  object-fit: cover;
-}
-.card-body {
-  padding: 1rem;
-}
-.card-title {
-  font-size: var(--font-size-h2);
-  margin-bottom: 0.35rem;
-}
-.status {
-  display: inline-block;
-  padding: 0.2rem 0.5rem;
-  font-size: 0.75rem;
-  color: #555;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
 }
 
 /*----------- 5. Responsive -----------*/
