@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "titre": "Fullmetal Alchemist: Brotherhood",
+    "nbEpisode": 64,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  },
+  {
+    "id": 2,
+    "titre": "Naruto",
+    "nbEpisode": 220,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  },
+  {
+    "id": 3,
+    "titre": "Naruto Shippuden",
+    "nbEpisode": 500,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  },
+  {
+    "id": 4,
+    "titre": "Bleach",
+    "nbEpisode": 366,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  },
+  {
+    "id": 5,
+    "titre": "One Piece",
+    "nbEpisode": 1100,
+    "nbSaison": 1,
+    "statut": "En cours"
+  },
+  {
+    "id": 6,
+    "titre": "Attack on Titan",
+    "nbEpisode": 87,
+    "nbSaison": 4,
+    "statut": "Terminé"
+  },
+  {
+    "id": 7,
+    "titre": "Demon Slayer",
+    "nbEpisode": 55,
+    "nbSaison": 3,
+    "statut": "En cours"
+  },
+  {
+    "id": 8,
+    "titre": "My Hero Academia",
+    "nbEpisode": 138,
+    "nbSaison": 6,
+    "statut": "En cours"
+  },
+  {
+    "id": 9,
+    "titre": "Death Note",
+    "nbEpisode": 37,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  },
+  {
+    "id": 10,
+    "titre": "Jujutsu Kaisen",
+    "nbEpisode": 47,
+    "nbSaison": 2,
+    "statut": "En cours"
+  },
+  {
+    "id": 11,
+    "titre": "Spy x Family",
+    "nbEpisode": 37,
+    "nbSaison": 2,
+    "statut": "En cours"
+  },
+  {
+    "id": 12,
+    "titre": "Chainsaw Man",
+    "nbEpisode": 12,
+    "nbSaison": 1,
+    "statut": "En cours"
+  },
+  {
+    "id": 13,
+    "titre": "One Punch Man",
+    "nbEpisode": 24,
+    "nbSaison": 2,
+    "statut": "Planifié"
+  },
+  {
+    "id": 14,
+    "titre": "Haikyu!!",
+    "nbEpisode": 85,
+    "nbSaison": 4,
+    "statut": "Terminé"
+  },
+  {
+    "id": 15,
+    "titre": "Gintama",
+    "nbEpisode": 367,
+    "nbSaison": 8,
+    "statut": "Terminé"
+  },
+  {
+    "id": 16,
+    "titre": "Hunter x Hunter (2011)",
+    "nbEpisode": 148,
+    "nbSaison": 1,
+    "statut": "Hiatus"
+  },
+  {
+    "id": 17,
+    "titre": "Cowboy Bebop",
+    "nbEpisode": 26,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  },
+  {
+    "id": 18,
+    "titre": "Neon Genesis Evangelion",
+    "nbEpisode": 26,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  },
+  {
+    "id": 19,
+    "titre": "Dragon Ball Z",
+    "nbEpisode": 291,
+    "nbSaison": 9,
+    "statut": "Terminé"
+  },
+  {
+    "id": 20,
+    "titre": "Dragon Ball Super",
+    "nbEpisode": 131,
+    "nbSaison": 5,
+    "statut": "Hiatus"
+  },
+  {
+    "id": 21,
+    "titre": "Steins;Gate",
+    "nbEpisode": 24,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  },
+  {
+    "id": 22,
+    "titre": "Fairy Tail",
+    "nbEpisode": 328,
+    "nbSaison": 3,
+    "statut": "Terminé"
+  },
+  {
+    "id": 23,
+    "titre": "Tokyo Ghoul",
+    "nbEpisode": 48,
+    "nbSaison": 4,
+    "statut": "Terminé"
+  },
+  {
+    "id": 24,
+    "titre": "Mob Psycho 100",
+    "nbEpisode": 37,
+    "nbSaison": 3,
+    "statut": "Terminé"
+  },
+  {
+    "id": 25,
+    "titre": "Black Clover",
+    "nbEpisode": 170,
+    "nbSaison": 1,
+    "statut": "Hiatus"
+  },
+  {
+    "id": 26,
+    "titre": "Re:Zero − Starting Life in Another World",
+    "nbEpisode": 50,
+    "nbSaison": 2,
+    "statut": "En cours"
+  },
+  {
+    "id": 27,
+    "titre": "Sword Art Online",
+    "nbEpisode": 97,
+    "nbSaison": 4,
+    "statut": "En cours"
+  },
+  {
+    "id": 28,
+    "titre": "Vinland Saga",
+    "nbEpisode": 48,
+    "nbSaison": 2,
+    "statut": "En cours"
+  },
+  {
+    "id": 29,
+    "titre": "Kaguya-sama: Love Is War",
+    "nbEpisode": 37,
+    "nbSaison": 3,
+    "statut": "En cours"
+  },
+  {
+    "id": 30,
+    "titre": "The Promised Neverland",
+    "nbEpisode": 23,
+    "nbSaison": 2,
+    "statut": "Terminé"
+  },
+  {
+    "id": 31,
+    "titre": "Code Geass",
+    "nbEpisode": 50,
+    "nbSaison": 2,
+    "statut": "Terminé"
+  },
+  {
+    "id": 32,
+    "titre": "Made in Abyss",
+    "nbEpisode": 25,
+    "nbSaison": 2,
+    "statut": "En cours"
+  },
+  {
+    "id": 33,
+    "titre": "Berserk (1997)",
+    "nbEpisode": 25,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  },
+  {
+    "id": 34,
+    "titre": "Blue Lock",
+    "nbEpisode": 24,
+    "nbSaison": 1,
+    "statut": "Planifié"
+  },
+  {
+    "id": 35,
+    "titre": "Dr. Stone",
+    "nbEpisode": 49,
+    "nbSaison": 3,
+    "statut": "En cours"
+  },
+  {
+    "id": 36,
+    "titre": "Fruits Basket (2019)",
+    "nbEpisode": 63,
+    "nbSaison": 3,
+    "statut": "Terminé"
+  },
+  {
+    "id": 37,
+    "titre": "JoJo's Bizarre Adventure",
+    "nbEpisode": 190,
+    "nbSaison": 5,
+    "statut": "En cours"
+  },
+  {
+    "id": 38,
+    "titre": "Ghost in the Shell: Stand Alone Complex",
+    "nbEpisode": 52,
+    "nbSaison": 2,
+    "statut": "Terminé"
+  },
+  {
+    "id": 39,
+    "titre": "Trigun Stampede",
+    "nbEpisode": 12,
+    "nbSaison": 1,
+    "statut": "En cours"
+  },
+  {
+    "id": 40,
+    "titre": "Parasyte: The Maxim",
+    "nbEpisode": 24,
+    "nbSaison": 1,
+    "statut": "Terminé"
+  }
+]

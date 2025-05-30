@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime List</title>
+    <!-- Google Font for a clean, modern anime vibe -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="../styles/card.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div id="site-header"></div>
+        <script>
+            fetch('layout.html')
+                .then(r => r.text())
+                .then(html => { document.getElementById('site-header').innerHTML = html; });
+        </script>
+
+        <div class="watchlist-grid"></div>
+
+    </main>
+    <script type="module">
+
+        const root = document.querySelector('.watchlist-grid');
+        if (!root) throw new Error('watchlist-grid introuvable');
+
+        import { Anime } from "../class/anime.js";
+        import { createAnimeCard } from "../scripts/carte.js";
+
+        // charge le JSON puis hydrate
+        const list = await fetch("../data/animes_test.json").then(r => r.json());
+
+        list.forEach(rec => {
+            const anime = new Anime(rec);
+            const card = createAnimeCard(anime);
+            root.append(card);
+        })
+    </script>
+</body>
+
+
+</html>
