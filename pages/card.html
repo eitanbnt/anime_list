@@ -7,7 +7,7 @@
     <title>Anime List</title>
     <!-- Google Font for a clean, modern anime vibe -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="../styles/home.css" rel="stylesheet">
+    <link href="../styles/card.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,7 +24,23 @@
         <div class="watchlist-grid"></div>
 
     </main>
+    <script type="module">
 
+        const root = document.querySelector('.watchlist-grid');
+        if (!root) throw new Error('watchlist-grid introuvable');
+
+        import { Anime } from "../class/anime.js";
+        import { createAnimeCard } from "../scripts/carte.js";
+
+        // charge le JSON puis hydrate
+        const list = await fetch("../data/animes_test.json").then(r => r.json());
+
+        list.forEach(rec => {
+            const anime = new Anime(rec);
+            const card = createAnimeCard(anime);
+            root.append(card);
+        })
+    </script>
 </body>
 
 
